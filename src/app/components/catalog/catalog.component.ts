@@ -39,7 +39,6 @@ export class CatalogComponent implements OnInit {
           //ponemos la data que viene del servicio en un arreglo
           this.data.push(pokemonData);
           this.dataSource = new MatTableDataSource<any>(this.data);
-          this.dataSource.paginator = this.paginator;
 
         },
         err => {
@@ -53,9 +52,6 @@ export class CatalogComponent implements OnInit {
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
-    if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
-    }
   }
 
   getRow(row){
