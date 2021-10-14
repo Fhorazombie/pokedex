@@ -19,12 +19,14 @@ import { MatCardModule } from '@angular/material/card';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
+import { ProfileComponent } from './components/profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CatalogComponent,
-    DetailComponent
+    DetailComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
