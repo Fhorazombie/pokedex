@@ -58,4 +58,8 @@ export class CatalogComponent implements OnInit {
     this.router.navigateByUrl(`/pokeDetail/${row.position}`)
   }
 
+  profile(){
+    this.router.navigateByUrl(`/profile`)
+  }
+
 }
