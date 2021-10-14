@@ -57,5 +57,6 @@
   "bugs": {
     "url": "https://github.com/Fhorazombie/pokedex/issues"
   },
-  "homepage": "https://github.com/Fhorazombie/pokedex#readme"
+  "homepage": "https://github.com/Fhorazombie/pokedex#readme",
+  "deploy": "ng build --prod --base-href=/angular-ci-cd/"
 }
