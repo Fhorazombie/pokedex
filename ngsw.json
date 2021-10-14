@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1634244984331,
+  "timestamp": 1634246322121,
   "index": "/pokedex/index.html",
   "assetGroups": [
     {
@@ -13,8 +13,8 @@
       "urls": [
         "/pokedex/favicon.ico",
         "/pokedex/index.html",
-        "/pokedex/main-es2015.0ad35b8c5c1e56639c1a.js",
-        "/pokedex/main-es5.0ad35b8c5c1e56639c1a.js",
+        "/pokedex/main-es2015.8ddf198e41ff6455ae38.js",
+        "/pokedex/main-es5.8ddf198e41ff6455ae38.js",
         "/pokedex/manifest.webmanifest",
         "/pokedex/polyfills-es2015.5205170df1347e57471f.js",
         "/pokedex/polyfills-es5.5208e342932a76b41144.js",
@@ -42,6 +42,7 @@
         "/pokedex/assets/icons/icon-72x72.png",
         "/pokedex/assets/icons/icon-96x96.png",
         "/pokedex/assets/img/360_F_338054496_WGrjDx4HVdAYs3mkkJFrc7wBxPx1qe7D.jpg",
+        "/pokedex/assets/img/IMG_20190119_201356.jpg",
         "/pokedex/assets/img/pokedeex.png"
       ],
       "patterns": []
@@ -59,11 +60,12 @@
     "/pokedex/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/pokedex/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/pokedex/assets/img/360_F_338054496_WGrjDx4HVdAYs3mkkJFrc7wBxPx1qe7D.jpg": "7c6dda41d7d935b9c653a39cf8cc2916b640552c",
+    "/pokedex/assets/img/IMG_20190119_201356.jpg": "2db2ceab97324079f5ee23aea3a57d2f0b5836f8",
     "/pokedex/assets/img/pokedeex.png": "42d81aafe3364c688261e92ee76698e4dcae0f9f",
     "/pokedex/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/pokedex/index.html": "7e0d12e42b37661b610574967ae91b63daf5c394",
-    "/pokedex/main-es2015.0ad35b8c5c1e56639c1a.js": "81a8d77f7e0e264bc730d54fbc12fdc7dc2f2937",
-    "/pokedex/main-es5.0ad35b8c5c1e56639c1a.js": "ad77d1dcf5aa4201d96c29098974f54ac5b605ef",
+    "/pokedex/index.html": "68ccd636daa5ca7f382e96add06316d4d7f9b0cc",
+    "/pokedex/main-es2015.8ddf198e41ff6455ae38.js": "aa4dfb46997e5f159d73f4d3a46d68c2ec78780f",
+    "/pokedex/main-es5.8ddf198e41ff6455ae38.js": "67764cd3fcdde02c7ec762b58bf0c7bb1262e313",
     "/pokedex/manifest.webmanifest": "2b3cb9698d8f8a7914f26f5388087dd00d870ac9",
     "/pokedex/polyfills-es2015.5205170df1347e57471f.js": "3c288dd52a48f37823e9335df78a02ed88284197",
     "/pokedex/polyfills-es5.5208e342932a76b41144.js": "5e86f06c172a8d38254fe39feb1a4dca219dca48",
