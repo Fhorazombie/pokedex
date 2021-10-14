@@ -1,8 +1,10 @@
 <div class="container">
   <mat-card class="card">
-  
+
+    <button mat-icon-button class="example-icon arrow_back-icon" (click)="backpage()">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
     <img mat-card-image src="{{pokemonImg}}" alt="pokemon">
-  
     <mat-card-header>
       <mat-card-title>{{pokemon.name}}</mat-card-title>
       <mat-card-subtitle>Nº {{pokemon.id}}</mat-card-subtitle>
@@ -14,6 +16,18 @@
         <mat-chip color="primary">Height: {{pokemon.height}}</mat-chip>
         <mat-chip color="primary">Weight: {{pokemon.weight}}</mat-chip>
       </mat-chip-list>
+      <h4>Habilities</h4>
+      <mat-list>
+        <div *ngFor="let abilit of pokemon.abilities">
+          <mat-list-item>{{ abilit.ability.name }}</mat-list-item>
+          <mat-divider></mat-divider>
+        </div>
+      </mat-list>
+      <h4>Stats:</h4>
+      <div class="stats" *ngFor="let stat of pokemonStats">
+        <h5>{{ stat.stat.name}}</h5>
+        <mat-progress-bar mode="determinate" value="{{stat.base_stat}}"></mat-progress-bar>
+      </div>
     </mat-card-content>
   
   </mat-card>
