@@ -1,0 +1,56 @@
+.container {
+    padding: 0px;
+    background-color: var(--morado);
+    width: 100%;
+
+    mat-card.mat-card {
+        background: rgb(14,0,255);
+        background: linear-gradient(0deg, #673ab7 0%, #790964 35%, #3a3db7 100%);
+        border-radius: 0px;
+        padding-bottom: 4vh;
+
+        button.example-icon {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            background-color: #000000;
+            color: #b03da4;
+            border: none;
+
+            mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color {
+                height: 40px;
+                width: 40px;
+                font-size: 40px;
+            }
+        }
+
+        mat-card-title.mat-card-title {
+            text-transform: capitalize;
+        }
+        .stats h5 {
+            text-transform: uppercase;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .container {
+        .mat-card.mat-card{
+            width: 23%;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-device-width: 900px) and (orientation: landscape) {
+    .container {
+        mat-card {
+            img.mat-card-image {
+                float: left;
+                width: 30%;
+                margin-right: 3vw;
+            }
+        }
+    }
+}

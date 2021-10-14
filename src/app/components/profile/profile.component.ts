@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Location} from '@angular/common';
 
 @Component({
   selector: 'app-profile',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
-  constructor() { }
+  develop = {
+    "abilities" : [
+      {"name": "Git"},
+      {"name": "HTML"},
+      {"name": "CSS"},
+      {"name": "Javascript"}
+    ]
+  }
+
+  constructor(private _location: Location) { }
 
   ngOnInit(): void {
   }
 
+
+  backpage() {
+    this._location.back();
+  }
 }

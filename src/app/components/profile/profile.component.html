@@ -1,1 +1,29 @@
-<p>profile works!</p>
+<div class="container">
+    <mat-card class="card">
+  
+      <button mat-icon-button class="example-icon arrow_back-icon" (click)="backpage()">
+        <mat-icon>arrow_back</mat-icon>
+      </button>
+      <img mat-card-image src="assets/img/IMG_20190119_201356.jpg" alt="pokemon">
+      <mat-card-header>
+        <mat-card-title>Yoshua Palacios</mat-card-title>
+        <mat-card-subtitle>Nº 666</mat-card-subtitle>
+      </mat-card-header>
+    
+      <mat-card-content>
+        <mat-chip-list>
+          <mat-chip color="primary">Type: Developer</mat-chip>
+          <mat-chip color="primary">Height: 1.65</mat-chip>
+          <mat-chip color="primary">Weight: 50</mat-chip>
+        </mat-chip-list>
+        <h4>Habilities</h4>
+        <mat-list>
+          <div *ngFor="let abilit of develop.abilities">
+            <mat-list-item>{{ abilit.name }}</mat-list-item>
+            <mat-divider></mat-divider>
+          </div>
+        </mat-list>
+      </mat-card-content>
+    
+    </mat-card>
+  </div>
